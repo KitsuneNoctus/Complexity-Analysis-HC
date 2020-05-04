@@ -25,4 +25,14 @@ Note:
 '''
 
 def find_jewels(J, S):
-    pass
+    total = 0 #O(1)
+    for char_jewel in J: #O(n)
+        for char_comp in S: #O(n)
+            if char_jewel == char_comp:
+                total += 1 #O(1)
+    return total
+
+
+print(find_jewels("aA","aAAbbbb"))
+print(find_jewels("z","ZZ"))
+print(find_jewels("iUeI","iInbHuMN"))

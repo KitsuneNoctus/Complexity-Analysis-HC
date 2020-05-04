@@ -7,7 +7,8 @@
 > Restate: Given a non-negative number, reduce the number to zero by dividing by 2 when even, and subtracting 1 when odd. Return the number of steps steps it takes.
 
 [Solution](problem1.py)
-#### Time Complexity: O(n) - Single Loop used in
+#### Time Complexity:
+O(n) - Linear Time - Single Loop used in entire solution, as well as singular assignments to variables.
 
 ### Problem 2
 [Problem Link](https://leetcode.com/problems/jewels-and-stones/)
@@ -16,3 +17,4 @@
 
 [Solution](problem2.py)
 #### Time Complexity:
+O(n^2) - Quadratic Time - Use of a nested for loop to go though both strings iteratively
