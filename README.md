@@ -10,6 +10,9 @@
 #### Time Complexity:
 O(n) - Linear Time - Single Loop used in entire solution, as well as singular assignments to variables.
 
+#### Space Complexity:
+Linear Space
+
 ### Problem 2
 [Problem Link](https://leetcode.com/problems/jewels-and-stones/)
 #### Problem: You're given strings J representing the types of stones that are jewels, and S representing the stones you have. Each character in S is a type of stone you have. You want to know how many of the stones you have are also jewels. The letters in J are guaranteed distinct, and all characters in J and S are letters. Letters are case sensitive, so "a" is considered a different type of stone from "A".
@@ -18,3 +21,6 @@ O(n) - Linear Time - Single Loop used in entire solution, as well as singular as
 [Solution](problem2.py)
 #### Time Complexity:
 O(n^2) - Quadratic Time - Use of a nested for loop to go though both strings iteratively
+
+#### Space Complexity:
+Linear Space
